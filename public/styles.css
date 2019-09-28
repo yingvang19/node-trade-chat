@@ -1,14 +1,23 @@
 body{
-    font-family: 'Nunito';
+    font-family: 'Helvetica, Arial, sans-serif';
+    background: url('../images/bg.jpg') center;
+  background-size: auto;
+  background-attachment: fixed;
+  
 }
 
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: aquamarine;
+}
 h2{
     font-size: 18px;
     padding: 10px 20px;
-    color: #575ed8;
+    color: steelblue;
 }
 
-#mario-chat{
+#tradeMe-chat{
     max-width: 600px;
     margin: 30px auto;
     border: 1px solid #ddd;
@@ -36,7 +45,7 @@ h2{
 }
 
 #output strong{
-    color: #575ed8;
+    color: #3ea3c3;
 }
 
 label{
@@ -54,14 +63,14 @@ input{
     width: 100%;
     background: #fff;
     border-bottom: 1px solid #eee;
-    font-family: Nunito;
+    font-family: 'Helvetica, Arial, sans-serif';
     font-size: 16px;
 }
 
 button{
-    background: #575ed8;
+    background: #3ea3c3;
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     border: 0;
     padding: 12px 0;
     width: 100%;

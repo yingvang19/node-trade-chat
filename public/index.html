@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WebSockets</title>
+	<title>TradeMe Chat</title>
 	<link rel="stylesheet" type="text/css" href="/styles.css">
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
 </head>
 <body>
+<h1>PrimiTrade Chat </h1>
 
-<div id="mario-chat">
+<div id="tradeMe-chat">
 	<div id="chat-window">
 		<div id="output"></div>
 		<div id="feedback"></div>
 	</div>
-	<input type="text" id="handle" placeholder="Name" required>
+	<input type="text" id="handle" placeholder="Name" required autofocus>
 	<input type="text" id="message" placeholder="Message" required>
 	<button id="send">Send</button>
 </div>
 
 <script type="text/javascript" src="/chat.js"></script>
+
 </body>
 </html>

@@ -50,3 +50,11 @@ function onKeyDownNotEnter(){
     timeout = setTimeout(timeoutFunction, 1500);
   }
 }
+
+var input = document.getElementById("message");
+input.addEventListener("keyup", function(event) {
+  if (event.keyCode === 13) {
+   event.preventDefault();
+   document.getElementById("send").click();
+  }
+});
