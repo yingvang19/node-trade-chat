@@ -1,4 +1,4 @@
-const socket = io.connect('https://bharat-websocket.herokuapp.com/');
+const socket = io.connect('https://node-trade-chat.herokuapp.com/');
 
 var typing = false;
 var timeout = undefined;
